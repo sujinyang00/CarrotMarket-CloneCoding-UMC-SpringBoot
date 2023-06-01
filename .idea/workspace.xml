@@ -5,84 +5,112 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b869fc1-0a86-4173-9270-2b3371a67a2b" name="변경" comment="변경">
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/build/classes/java/main/com/example/demo/DemoApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/build/classes/java/main/com/example/demo/config/BaseException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/build/classes/java/main/com/example/demo/config/BaseResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/build/classes/java/main/com/example/demo/config/BaseResponseStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/build/classes/java/main/com/example/demo/config/Constant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/build/classes/java/main/com/example/demo/config/WebConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/build/classes/java/main/com/example/demo/config/secret/Secret.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/build/classes/java/main/com/example/demo/src/WebSecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/build/classes/java/main/com/example/demo/src/test/HttpControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/build/classes/java/main/com/example/demo/src/test/TestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/build/classes/java/main/com/example/demo/src/user/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/build/classes/java/main/com/example/demo/src/user/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/build/classes/java/main/com/example/demo/src/user/UserProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/build/classes/java/main/com/example/demo/src/user/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/build/classes/java/main/com/example/demo/src/user/model/GetUserRes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/build/classes/java/main/com/example/demo/src/user/model/PatchUserReq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/build/classes/java/main/com/example/demo/src/user/model/PostLoginReq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/build/classes/java/main/com/example/demo/src/user/model/PostLoginRes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/build/classes/java/main/com/example/demo/src/user/model/PostUserReq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/build/classes/java/main/com/example/demo/src/user/model/PostUserRes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/build/classes/java/main/com/example/demo/src/user/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/build/classes/java/main/com/example/demo/utils/JwtService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/build/classes/java/main/com/example/demo/utils/SHA256.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/build/classes/java/main/com/example/demo/utils/ValidationRegex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/build/resources/main/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/build/resources/main/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/logs/app.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/logs/error.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/config/BaseException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/config/BaseResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/config/BaseResponseStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/config/Constant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/config/WebConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/config/secret/Secret.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/src/WebSecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/src/item/ItemController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/src/item/ItemDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/src/item/ItemProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/src/item/ItemService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/src/item/model/DeleteItemReq.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/src/item/model/DeleteItemRes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/src/item/model/GetItemRes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/src/item/model/GetLikedItemRes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/src/item/model/Item.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/src/item/model/PatchUserReq.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/src/item/model/PostItemReq.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/src/item/model/PostItemRes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/src/item/model/PutItemPostReq.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/src/item/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/src/test/HttpControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/src/test/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/src/user/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/src/user/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/src/user/UserProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/src/user/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/src/user/model/GetUserRes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/src/user/model/PatchUserReq.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/src/user/model/PostLoginReq.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/src/user/model/PostLoginRes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/src/user/model/PostUserReq.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/src/user/model/PostUserRes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/src/user/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/utils/JwtService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/utils/SHA256.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/java/com/example/demo/utils/ValidationRegex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/main/resources/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server-spring-boot-jdbc/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_2_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_2_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_13_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_13_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_13_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jayway_jsonpath_json_path_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_mysql_mysql_connector_j_8_0_33.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sun_istack_istack_commons_runtime_3_0_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_jsonwebtoken_jjwt_api_0_11_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_12_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_12_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_minidev_accessors_smart_2_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_minidev_json_smart_2_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_core_9_0_74.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_el_9_0_74.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_74.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_aspectj_aspectjweaver_1_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_assertj_assertj_core_3_22_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_jaxb_jaxb_runtime_2_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_jaxb_txw2_2_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_hibernate_core_5_6_15_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jboss_jandex_2_4_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jboss_logging_jboss_logging_3_4_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_24_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_core_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_junit_jupiter_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_projectlombok_lombok_1_18_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_skyscreamer_jsonassert_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_jul_to_slf4j_1_7_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_2_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_2_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_2_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_aop_2_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_data_jpa_2_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_jdbc_2_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_json_2_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_2_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_security_2_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_2_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_tomcat_2_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_web_2_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_2_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_autoconfigure_2_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_data_spring_data_commons_2_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_data_spring_data_jpa_2_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_security_spring_security_config_5_7_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_security_spring_security_core_5_7_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_security_spring_security_crypto_5_7_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_security_spring_security_web_5_7_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aop_5_3_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aspects_5_3_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_beans_5_3_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_5_3_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_core_5_3_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_expression_5_3_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jcl_5_3_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jdbc_5_3_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_orm_5_3_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_test_5_3_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_tx_5_3_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_web_5_3_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_webmvc_5_3_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_xmlunit_xmlunit_core_2_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_yaml_snakeyaml_1_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/demo.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/demo.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/umc_server_springboot_api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/src/item/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/src/item/ItemController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,6 +183,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />

@@ -19,7 +19,7 @@ import java.util.List;
 import static com.example.demo.config.BaseResponseStatus.*;
 
 @RestController
-@RequestMapping("/app/users")
+@RequestMapping("/item")
 public class ItemController {
     final Logger logger = LoggerFactory.getLogger(this.getClass());
 
@@ -54,7 +54,7 @@ public class ItemController {
      */
     //Query String
     @ResponseBody
-    @GetMapping("") // (GET) 127.0.0.1:9000/app/users
+    @GetMapping("") // (GET) 127.0.0.1:9000/item
     public BaseResponse<List<GetItemRes>> getItems(@RequestParam(required = false) Integer Category) {
         try{
             if(Category == null){
@@ -76,7 +76,7 @@ public class ItemController {
      */
     // Path-variable
     @ResponseBody
-    @GetMapping("/{itemId}") // (GET) 127.0.0.1:9000/app/users/:userIdx
+    @GetMapping("/{itemId}") // (GET) 127.0.0.1:9000/item/:itemId
     public BaseResponse<GetItemRes> getItem(@PathVariable("itemId") int itemId) {
         // Get Users
         try{
@@ -95,7 +95,7 @@ public class ItemController {
      */
     // Body
     @ResponseBody
-    @PostMapping("/postItem")
+    @PostMapping("/postItem") // (POST) 127.0.0.1:9000/item/postItem
     public BaseResponse<PostItemRes> postItem(@RequestBody PostItemReq postItemReq) {
         if(postItemReq.getPostTitle() == null){
             return new BaseResponse<>(POST_ITEM_EMPTY_STRING);
@@ -116,7 +116,7 @@ public class ItemController {
      */
     // Body
     @ResponseBody
-    @DeleteMapping("/deleteItem")
+    @DeleteMapping("/deleteItem") // (DELETE) 127.0.0.1:9000/item/deleteItem
     public BaseResponse<DeleteItemRes> deleteItem(@RequestBody DeleteItemReq deleteItemReq) {
         if(deleteItemReq == null){
             return new BaseResponse<>(POST_ITEM_EMPTY_STRING);
@@ -135,7 +135,7 @@ public class ItemController {
      * @return BaseResponse<String>
      */
     @ResponseBody
-    @PatchMapping("/{userIdx}")
+    @PatchMapping("/changeName/{userIdx}") // (PATCH) 127.0.0.1:9000/item/changeName/:userIdx
     public BaseResponse<String> modifyUserName(@PathVariable("userIdx") int userIdx, @RequestBody User user){
         try {
             //jwt에서 idx 추출.
@@ -156,8 +156,13 @@ public class ItemController {
     }
 
 
+    /**
+     * 중고거래 게시글 수정
+     * [PUT]
+     * @return BaseResponse<String>
+     */
     @ResponseBody
-    @PutMapping("/{userIdx}")
+    @PutMapping("/modifyItem/{userIdx}") // (PUT) 127.0.0.1:9000/item/modifyItem/:userIdx
     public BaseResponse<String> modifyItemPost(@PathVariable("itemId") int itemId, @PathVariable("postWriterId") int postWriterId, @RequestBody Item item){
         try {
             //jwt에서 idx 추출.
