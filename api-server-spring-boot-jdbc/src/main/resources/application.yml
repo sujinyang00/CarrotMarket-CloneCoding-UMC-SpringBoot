@@ -1,0 +1,16 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: demo
+
+  sql:
+    init:
+      platform: mysql
+
+  datasource:
+    url: jdbc:mysql://db-sujin.cw1hq4sxprjm.ap-southeast-2.rds.amazonaws.com/sujinDB?autoReconnect=true&setTimezone=Asia/Seoul # 변경해주세요
+    username: master # Database ID
+    password: 08250825 # Database Password
+    driver-class-name: com.mysql.cj.jdbc.Driver
