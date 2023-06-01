@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/sujinyang00/UMC_SpringBoot.git
+	fetch = +refs/*:refs/*
+	mirror = true
+	pushurl = https://github.com/sujinyang00/UMC_SpringBoot.git
+[branch "issue-1"]
+	remote = origin
+	merge = refs/heads/main
